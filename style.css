@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 11em;
+    font-size: 15px;
+}
+header .fi {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+header .se {
+    display: flex;
+    align-items: center;
+}
+header .se div {
+    padding: 0 20px;
+}
+header #last {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header span {
+    padding-right: 12px;
+    color: #e9ac20;
+}
+header #rborder {
+    border-right: 1px solid #d4d4d4;
+}
+
+
+nav {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    padding: 20px 7em;
+    font-size: 18px;
+}
+nav #spc {
+    color: #e9ac20;
+}
+nav .btn {
+    color: #1a1a1a;
+    background-color: #fff;
+    padding: 13px 24px;
+    font-size: 17px;
+    font-weight: 100;
+}
+nav .btn i {
+    color: #e9ac20;
+    padding-left: 8px;
+}
+
+.hero {
+    background-image: url("https://preview.colorlib.com/theme/hiroto/img/hero.jpg");
+    height: 100vh;
+}
+.hero .head1 {
+    color: #e9ac20;
+    font-size: 10px;
+    text-align: center;
+    padding: 14em 0 0;
+    letter-spacing: 4px;
+}
+.hero .head2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    padding: 1em 9em;
+}
+
+.hero .main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .main-box .fi {
+    display: flex;
+    background-color: #fff;
+    padding: 30px 35px;
+    gap: 30px;
+}
+.hero .box .i {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #777c81;
+}
+.hero .box .ii {
+    color: #494949;
+    padding: 13px 16px;
+    border: 1px solid #e7e4e4;
+}
+.hero .box .search {
+    width: 17em;
+    position: relative;
+}
+.hero .box .search i {
+    position: absolute;
+    right: 1em;
+    color: #e9ac20;
+}
+.hero .box i {
+    color: #e9ac20;
+    padding: 0 8px;
+}
+.hero .main-box .se {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 148px;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.poster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10em;
+    /* position: relative; */
+}
+.poster h4 {
+    color: #e8b130;
+    margin-bottom: 1.5em;
+}
+.poster h1 {
+    font-size: 2.3em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.poster p {
+    color: #777c81;
+    line-height: 1.8em;
+    padding: 0 3em 0 0;
+    margin-bottom: 24px;
+}
+.poster #x {
+    margin-bottom: 16px;
+}
+.poster .image {
+    position: relative;
+    top: -80px;
+}
