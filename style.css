@@ -162,3 +162,112 @@ nav .btn i {
     position: relative;
     top: -80px;
 }
+
+
+.grid-1 {
+    display: grid;
+    padding: 0em 10em 12em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr;
+    gap: 40px;
+    justify-content: center;
+}
+.grid-1 img {
+    margin-bottom: 1.8em;
+}
+.grid-1 h2 {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+}
+.grid-1 p {
+    color: #777c81;
+    line-height: 1.8em;
+}
+
+
+
+.card-1 h4 {
+    color: #e8b130;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-1 h1 {
+    text-align: center;
+    font-size: 2.4em;
+    margin-bottom: 60px;
+}
+.card-1 .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.card-1 .container div img{
+    width: 100%;
+    height: 493px;
+}
+.card-1 .txt {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.card-1 .txt span {
+    font-size: 2em;
+}
+
+
+
+.test {
+    padding: 4em 10em;
+}
+.test .cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+.test .cont .btn {
+    color: white;
+    letter-spacing: 2px;
+    background-color: #e9ad28;
+    padding: 16px 20px;
+}
+.test .cont2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.testimonial h4 {
+    color: #e8b130;
+    margin-bottom: 1.8em
+}
+.testimonial h1 {
+    font-size: 2.3em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2em;
+}
+.review .ii {
+    color: #e8b130;
+}
+.review .i {
+    font-size: 15px;
+    font-weight: 700;
+}
+.testimonial p {
+    color: #777c81;
+    line-height: 24px;
+}
+.name {
+    color: #e8b130;
+    font-weight: 700;
+}
